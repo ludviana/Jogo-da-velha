@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Jogo da velha proposto pelo site do React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Jogo completamente funcional, todo conteudo proposto pelo site esta implementado.
 
-## Available Scripts
+## Conteudo concluido:
 
-In the project directory, you can run:
+- [x] Te permite jogar o Jogo da Velha.
 
-### `npm start`
+- [x] Indica quando um dos jogadores ganhou o jogo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Armazena um histórico do jogo à medida que ele avança.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [x] Permite aos jogadores revisarem o histórico do jogo e verem versões anteriores do tabuleiro.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Coisas a fazer (Desafios propostos pelo site).
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [] Mostrar a localização de cada jogada no formato (col,row), para cada jogada no histórico.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [] Estilizar com negrito o item da lista de jogadas que está selecionado no momento.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [] Reescrever o componente Board para utilizar 2 loops para fazer os quadrados, em vez de deixá-los hardcoded.
 
-### `npm run eject`
+- [] Adicionar um botão de toggle que lhe permita ordenar os jogadas em ordem ascendente ou descendente.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [] Quando alguém ganhar, destaque os 3 quadrados que causaram a vitória.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [] Quando ninguém ganhar, exiba uma mensagem informando que o resultado foi um empate.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
