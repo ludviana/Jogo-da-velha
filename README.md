@@ -1,6 +1,6 @@
 # Jogo da velha proposto pelo site do React
 
-### Jogo completamente funcional, todo conteudo proposto pelo site esta implementado.
+### Jogo completamente funcional com todo conteudo proposto pelo site implementado.
 
 ## Conteudo concluido:
 
